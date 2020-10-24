@@ -1,49 +1,32 @@
-* {
-    margin: 5px;
-    padding: 10px;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+:root{
+    --text-one: 'Cormorant Garamond', serif;
 }
-
-main{
-    background-color:;
+body{
+    font-family: var(--text-one);
+    border-radius: 30px 20px;
+    border 3px dotted #ffffff;
 }
+ header {
+     text-align: center;
+     background-color: #ecf8ff;
+     background-size: 100px;
+ }
 
-body {
-    height: 100%;
-}
+ main {
+     text-align: center;
+     padding: 40px;
+     align-items: center;
+     background-color: #fff5e3;
 
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://live.staticflickr.com/216/509928698_7d2e84f087_b.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: realative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 30px;
-}
-
-form{
-    display: flex;
-    padding: 7%;
-    justify-content: center;
-}
-
+ }
 h3{
-    display: flex;
-    justify-content: center;
+    
 }
- 
-p{
-    display: flex;
-    justify-content: center;
+ div {
+     padding: 20px;
+ }
+
+div.p{
+    font-weight: bold;
 }
